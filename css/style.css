@@ -112,6 +112,11 @@ body {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 1.1em;
+    transition: all .3s;
+}
+
+.bike__link:hover {
+    background-color: #ff4040;
 }
 
 /*
@@ -380,6 +385,11 @@ body {
     line-height: 24px;
     letter-spacing: 1.1em;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.form__btn:hover {
+    background-color: #ff4040;
 }
 
 .form__bike-price {
