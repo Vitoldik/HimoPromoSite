@@ -19,6 +19,10 @@ a {
     color: inherit; /* наследуем цвет от родителя */
 }
 
+p {
+    margin: 0;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -205,4 +209,54 @@ body {
 
 .info__item-text {
     max-width: 450px;
+}
+
+.characteristics {
+    margin-bottom: 150px;
+}
+
+.characteristics__header {
+    margin: 0 0 40px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.characteristics__inner {
+    display: flex;
+}
+
+.characteristics__img {
+    align-self: center; /* выравниваем flex-элементы по текущей flex-линии */
+}
+
+.characteristics__items {
+    flex-basis: 570px;
+    margin-right: 60px;
+}
+
+.characteristics__list + .characteristics__list {
+    padding-top: 30px;
+}
+
+.characteristics__title {
+    padding: 2px 0 3px;
+    text-transform: uppercase;
+    background-color: #131313;
+    color: #fff;
+    font-weight: 700;
+}
+
+.characteristics__line {
+    display: flex;
+    padding-top: 5px;
+}
+
+.characteristics__name {
+    flex-basis: 285px;
+    padding-right: 25px;
+}
+
+.characteristics__desc {
+    flex-basis: 285px;
 }
