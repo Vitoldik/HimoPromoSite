@@ -1,3 +1,4 @@
+// Слайдеры
 $('.bike-slider, .slider__items').slick({
     arrows: false,
     dots: true,
@@ -5,3 +6,13 @@ $('.bike-slider, .slider__items').slick({
     autoplay: true,
     autoplaySpeed: 2000
 });
+
+// Плавный скролл
+$('.menu, .bike__column').on('click', 'a', function (event) {
+    event.preventDefault()
+
+    const id  = $(this).attr('href'),
+        top = $(id).offset().top
+
+    $('body,html').animate({scrollTop: top}, 1500)
+})

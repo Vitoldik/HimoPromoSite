@@ -67,7 +67,7 @@ body {
 }
 
 .bike {
-    padding: 100px 0 150px;
+    padding: 100px 0 0;
 }
 
 .bike__inner {
@@ -201,7 +201,8 @@ body {
 }
 
 .info {
-    margin-bottom: 150px;
+    padding-top: 150px;
+    margin-bottom: 50px;
 }
 
 .info__inner {
@@ -234,6 +235,7 @@ body {
 }
 
 .characteristics {
+    padding-top: 100px;
     margin-bottom: 150px;
 }
 
