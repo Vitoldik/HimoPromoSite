@@ -115,8 +115,10 @@ body {
 }
 
 /*
-    Стили слайдера
+    Стили слайдеров
 */
+
+/* Первый слайдер */
 .bike-slider .slick-dots {
     right: 0;
     top: 50px;
@@ -147,6 +149,21 @@ body {
 .slick-active button {
     background-color: #ff4040;
 }
+
+/* Второй слайдер */
+.slider {
+    margin-bottom: 50px;
+}
+
+.slider__items .slick-dots {
+    top: 0;
+    left: 0;
+}
+
+.slider__item {
+    padding-left: 50px;
+}
+
 /*
     Конец стилей слайдера
  */
