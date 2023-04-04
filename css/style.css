@@ -516,6 +516,11 @@ body {
         padding-top: 50px;
         margin-bottom: 50px;
     }
+
+    .slider__img {
+        object-fit: cover /* определяет, как должен измениться размер элемента, чтобы он поместился в блоке */;
+        height: 400px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -591,6 +596,14 @@ body {
     .menu__link {
         padding: 25px 20px;
     }
+
+    .slider__img {
+        height: 250px;
+    }
+
+    .slider__item {
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -608,6 +621,10 @@ body {
         letter-spacing: .9em;
         width: 100%;
         text-align: center;
+    }
+
+    .slider {
+        display: none;
     }
 }
 
