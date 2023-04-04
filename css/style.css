@@ -466,6 +466,26 @@ body {
     Мобильная адаптация
 */
 
+/* Проверка на сенсорный экран */
+@media (hover: none) and (pointer: coarse) and (max-width: 1140px) {
+    .menu__link,
+    .bike__link,
+    .form__btn {
+        transition: all 0s;
+    }
+
+    .menu__link:hover {
+        background-color: #fff;
+        color: #131313;
+    }
+
+    .bike__link:hover,
+    .form__btn:hover {
+        background-color: #131313;
+        color: #fff;
+    }
+}
+
 @media (max-width: 1140px) {
     .form__bike-img {
         width: 500px;
